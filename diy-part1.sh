@@ -24,3 +24,5 @@ sed -i 's/192.168.1.1/192.168.2.1/g' package/base-files/files/bin/config_generat
 sed -i 's/ImmortalWrt/G-DOCK/g' package/base-files/files/bin/config_generate
 
 sed -i 's/OpenWrt/PandoraBox/g' package/kernel/mac80211/files/lib/wifi/mac80211.sh
+
+sed -i 's/5.4/5.10/g' target/linux/ipq40xx/Makefile
